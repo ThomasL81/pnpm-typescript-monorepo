@@ -105,10 +105,12 @@ Using emojis on commit messages provides an easy way of identifying the purpose 
 | 💫    | Add or update animations and transitions.              |
 | 🙈    | Add or update a .gitignore file.                       |
 
-# references
+# References
 - [TypeOrm](https://typeorm.io)
 - [monorepo with typescript](https://github.com/bakeruk/modern-typescript-monorepo-example)
 - [typed linting](https://typescript-eslint.io/getting-started/typed-linting/)
 - [monorepo typescript linting](https://typescript-eslint.io/troubleshooting/typed-linting/monorepos)
 - [conventional commits website](https://www.conventionalcommits.org/en/v1.0.0/)
 - [conventional commits npm repo](https://www.npmjs.com/package/@commitlint/config-conventional)
+# Special thanks
+- for taking over the essentials in chermdev's writeup of conventional commits on [his github](https://github.com/chermdev/conventional-commits-setup/blob/master/README.md)
