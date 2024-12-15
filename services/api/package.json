@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon --config ./nodemon.json",
+    "run:dev": "pnpm exec dotenvx run -f .env.development -- ts-node --project ./tsconfig.development.json src/index.ts",
+    "run:prod": "pnpm exec dotenvx run -f .env.production -- ts-node --project ./tsconfig.production.json src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.31.0",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  }
+}

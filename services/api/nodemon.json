@@ -1,0 +1,13 @@
+{
+  "watch": [
+    "./src/**",
+    ".env",
+    ".env.production",
+    ".env.development"
+  ],
+  "ignore" : [ ".git" ],
+  "verbose" : true,
+  "ext" : "ts,json",
+  "exec" : "dotenvx run -f .env.development -- ts-node --project tsconfig.development.json ./src/index.ts"
+}
+
